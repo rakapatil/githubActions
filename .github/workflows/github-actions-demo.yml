@@ -5,7 +5,7 @@ on:
       - main
       - release/test
     paths-ignore:
-      - 'cdk/**'
+      - 'cdk/app.py'
 env:
   lambdaFun: 'fun1'
 jobs:
