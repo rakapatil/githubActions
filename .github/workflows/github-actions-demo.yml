@@ -6,6 +6,7 @@ on:
       - release/test
     paths-ignore:
       - 'cdk/app.py'
+      - '.github/workflows/lambda-pipeline-demo.yaml'
 env:
   lambdaFun: 'fun1'
 jobs:
