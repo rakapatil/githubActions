@@ -1,7 +1,7 @@
 name: lambda Actions Demo
 on: [push]
 env:
-  lambdaFun: 'lambda1'
+  lambdaFun: 'lambdaFun'
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
