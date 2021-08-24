@@ -4,6 +4,8 @@ on:
     branches: 
       - main
       - release/test
+    paths-ignore:
+      - 'cdk/**'
 env:
   lambdaFun: 'fun1'
 jobs:
